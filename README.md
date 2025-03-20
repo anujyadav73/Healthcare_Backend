@@ -5,7 +5,6 @@ This project is a **Django REST API** for managing a **Healthcare System**, allo
 - **Register/Login** using JWT authentication.
 - **Manage Patients** (Create, Read, Update, Delete).
 - **Manage Doctors** (Create, Read, Update, Delete).
-- **Assign Doctors to Patients** (Mapping API).
 - **Use PostgreSQL as the database**.
 
 ## 📌 Technologies Used
