@@ -19,8 +19,7 @@ This project is a **Django REST API** for managing a **Healthcare System**, allo
 ## ⚙️ Installation & Setup
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/django-healthcare-backend.git
-cd django-healthcare-backend
+git clone https://github.com/anujyadav73/Healthcare_Backend
 ```
 
 ### 2️⃣ Create a Virtual Environment
@@ -107,20 +106,6 @@ API will be available at: **http://127.0.0.1:8000/**
 4. **Refresh Token** (`POST /api/auth/token/refresh/`)
 
 ---
-
-## 🐳 Running with Docker (Optional)
-### 1️⃣ Build and Run Containers
-```bash
-docker-compose up --build
-```
-### 2️⃣ Run Migrations
-```bash
-docker exec -it django_app python manage.py migrate
-```
-### 3️⃣ Create Superuser
-```bash
-docker exec -it django_app python manage.py createsuperuser
-```
 
 ---
 
